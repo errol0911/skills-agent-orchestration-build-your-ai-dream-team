@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+      "id": "docs-refresh",
+      "name": "Docs Refresh",
+      "owner": "@mona",
+      "status": "on-track",
+      "priority": "medium",
+      "recentActivity": "Merged the new getting-started guide and fixed 12 broken links.",
+      "summary": "Rewriting contributor docs so new folks can ship their first PR in a day.",
+      "lastUpdated": "2026-11-20"
+    },
+    {
+      "id": "ci-speedup",
+      "name": "CI Speedup",
+      "owner": "@hubot",
+      "status": "at-risk",
+      "priority": "high",
+      "recentActivity": "Cache migration slipped a week; flaky integration tests still under investigation.",
+      "summary": "Cut pull request build time from 18 minutes to under 8.",
+      "lastUpdated": "2026-11-21"
+    },
+    {
+      "id": "design-tokens",
+      "name": "Design Tokens",
+      "owner": "@octocat",
+      "status": "blocked",
+      "priority": "high",
+      "recentActivity": "Waiting on brand team sign-off for the new color palette.",
+      "summary": "Share one set of colors and spacing values across every app.",
+      "lastUpdated": "2026-11-18"
+    },
+    {
+      "id": "accessibility-audit",
+      "name": "Accessibility Audit",
+      "owner": "@mona",
+      "status": "completed",
+      "priority": "low",
+      "recentActivity": "Final report published; all critical contrast issues resolved.",
+      "summary": "Review every page against WCAG 2.2 AA and fix what we find.",
+      "lastUpdated": "2026-11-14"
+    },
+    {
+      "id": "release-notes-bot",
+      "name": "Release Notes Bot",
+      "owner": "@codercat",
+      "status": "on-track",
+      "priority": "low",
+      "recentActivity": "Prototype now drafts release notes from merged PR titles.",
+      "lastUpdated": "2026-11-22"
+    }
+  ]
+}
